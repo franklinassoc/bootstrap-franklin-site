@@ -1,0 +1,126 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ * 2017 modified by James for FranklinAssoc.com and renamed franklin.css
+  */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+/*! Global hyperlink color change */
+a {
+  color: #FFCB08;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #9F7F05;
+  text-decoration: underline;
+}
+
+/*! Add gold outlined button style */
+.btn-gold-border {
+  color: #000;
+  border-color: #ffcb08;
+  }
+
+/*! Add a Franklin gold text color */
+.text-gold {
+  color: #FFCB08 !important;
+}
+/*! Seriously wasn't a black text setting */
+.text-black {
+  color: #000 !important;
+}
+
+/*! Carousel customization */
+/*! vh is viewport units, expressed as a percentage originally 65 */
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-fcaption {
+  position: relative;
+  z-index: 10;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  text-align: center;
+  }
+  
+  .carousel-fcaption > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+	}
+
+.carousel-fcaption > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Carousel fade transition */
+.carousel-fade {
+	.carousel-item {
+		display: block;
+		position: absolute;
+		opacity: 0;
+		transition: opacity 4s ease-in-out;
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 3em;
+    }
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*! footer spacing tweaks */
+footer {
+  padding: 15px 0;
+  text-align: center; }
+  
+  footer span.copyright {
+    font-size: 60%;
+    line-height: 35px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+	
+  footer ul.quicklinks {
+    font-size: 75%;
+    line-height: 35px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+
+	  
